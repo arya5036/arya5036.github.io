@@ -8,6 +8,7 @@
   const svg = document.createElementNS(ns, 'svg');
   svg.setAttribute('viewBox', '0 0 1500 850');
   svg.setAttribute('fill', 'none');
+  svg.setAttribute('preserveAspectRatio', 'xMidYMid slice');
   const defs = document.createElementNS(ns, 'defs');
   const palettes = [['#4754d8', '#8079ee', '#72cce8'], ['#6950b7', '#d3698e', '#de916d'], ['#3e64bf', '#7791e6', '#7686c8']];
   palettes.forEach((colors, index) => {
